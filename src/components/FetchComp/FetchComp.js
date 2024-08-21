@@ -13,7 +13,7 @@ const FetchComponent = () => {
       let activeRequests = 0;
       
       const axiosInstance = axios.create({
-        baseURL: "http://localhost:5002", 
+        baseURL: "https://fetch-back-1.onrender.com",
       });
 
       const sendRequest = async () => {
